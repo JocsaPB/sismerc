@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sismerc
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.5.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# sismerc
+Projeto de estudo. Mini sistema de mercadinho para realização de venda de produtos com usuários autenticados.
+>>>>>>> bd89bf082662d122bf3c8e65ab49e90453f9701c

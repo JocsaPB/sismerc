@@ -1,0 +1,22 @@
+.btn-outline-success {
+    color: #17a2b8;
+    background-color: transparent;
+    background-image: none;
+    border-color: #17a2b8;
+}
+
+.btn-outline-success:hover {
+    color: white;
+    background-color: #17a2b8;
+    background-image: none;
+    border-color: #17a2b8;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(23,162,184,1);
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: rgba(23,162,184,1);
+    font-size: 1.05em
+}

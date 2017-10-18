@@ -1,0 +1,9 @@
+form > div#button-group-filtro{
+    display: flex;
+    justify-content: right;
+    color: grey
+}
+
+section.funcionario > div#conteudo > div#filtro {
+    height: 220px
+}

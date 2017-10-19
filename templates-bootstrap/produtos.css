@@ -1,0 +1,8 @@
+section.produto > div#conteudo > div#filtro {
+     height: 150px
+}
+
+section.produto > div#conteudo > div#filtroCategoria {
+     height: 150px;
+     margin-top: 30px
+}

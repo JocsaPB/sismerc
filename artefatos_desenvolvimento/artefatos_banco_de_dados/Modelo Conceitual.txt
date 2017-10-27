@@ -1,0 +1,22 @@
+Um usuário pode realizar vendas e cada venda tem um ou mais produtos.
+	Um usuário pode deve ter ao menos um telefone e no máximo um endereço.
+Um produto pertence a uma categoria, uma categoria pode pertencer a um ou mais produtos.
+Um usuario tem um tipo que pode ser administrador, supervisor ou vendedor. 
+	O tipo deverá sempre existir independente de ter ou não usuários cadastrados.
+	
+* Usuario
+	idusuario, nome, tipoFuncionario, cpf
+* Endereço
+	idendereco, rua, bairro, cidade, estado, numero, complemento, id_usuario
+* Telefone
+	idtelefone, tipoTelefone, numero, id_usuario
+Produto
+	idproduto, nome, preco, id_categoria
+Categoria
+	idcategoria, nome
+Venda
+	idvenda, valor, id_usuario
+Produto_Venda
+	idProdutoVenda, id_produto, id_venda
+Tipo de funcionario
+	tipo
